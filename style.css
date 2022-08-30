@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    font-family: "League Spartan", sans-serif;
+     }
+
+.attribution {
+    display: block;
+}    
+
+main{
+    display: grid;
+    width: 1115px;
+    height: 590px;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    
+
+}
+
+.first-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.feedbacks-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    column-gap: 32.5px;
+    
+    justify-content: center;
+}
+.first-feedback,.second-feedback,.third-feedback{
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    height: 235px;
+    width: 350px;
+    background-color: hsl(300, 43%, 22%);
+
+}
+.first-feedback{
+    margin-top: 0;
+
+}
+.second-feedback {
+    margin-top: 16px;
+
+}
+.third-feedback {
+    margin-top: 31px;
+
+}
+.buyer{
+    color: hsl(300, 24%, 96%);
+    font-size: 17px;
+    display: flex;
+    width: 50%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 38px 0 0 19px;
+    line-height: 19px;
+}
+img {
+    border-radius: 50%;
+    width: 40px;
+}
+.buyer-det {
+    font-weight: 600;
+}
+.ver {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.rating {
+    margin-top: -42px;
+    line-height: 45px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 17px;
+}
+.star, .last-star {
+    width: 14px;
+    height: 14px;
+    margin-left: 7px;
+}
+.last-star{
+    margin-right: 22px;
+}
+.st-rate{
+    margin-left: 0;
+
+}
+.nd-rate{
+    margin-left: 40px;
+
+}
+.rd-rate{
+    margin-left: 80px;
+}
+.inner-pgph{
+    color: hsl(300, 24%, 96%);
+    font-size: 17px;
+    margin: 26px 34px 0 30px;
+    line-height: 22px;
+    font-weight: 400;
+    
+}
+.main-info{
+    width: 412px;
+    margin-top: -100px;
+}
+.title{
+    color: hsl(300, 43%, 22%);
+    font-size: 60px;
+}
+.outer-pgph {
+    color: hsl(303, 10%, 53%);
+    font-size: 17px;
+    line-height: 22px;
+    margin-top: -20px;
+    font-weight: 500;
+}
